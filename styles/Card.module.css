@@ -1,0 +1,32 @@
+.cardBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 50px;
+    width: 200px;
+}
+
+.card > p {
+    text-align: center;
+}
+
+.card > button {
+    border: none;
+    background-color: white;
+}
+
+.card > button > svg {
+    fill: red;
+    width: 30px;
+    height: 30px;
+}
+
+.card:hover {
+   box-shadow: 5px 5px 16px -3px grey;
+   cursor: pointer;
+   background-color: #3786FF;
+   color: white;
+}

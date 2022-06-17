@@ -1,0 +1,23 @@
+.container {
+    min-height: 500px;
+    margin: 2%;
+    
+    flex: 5;
+    padding: 2%;
+}
+
+.button {
+    position: absolute;
+    right: 20%;
+    height: 35px;
+    width: 70px;
+    border: none;
+    background-color: #428baf;
+    color: white;
+}
+
+.button:hover{
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.body {
+    background-color: #428baf ;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body > a, .body > p {
+    min-width: 12%;
+    min-height: 50px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 4px;
+}
+
+.body > a{
+   
+}
+
+.body > a:hover {
+    box-shadow: 5px 5px 16px -3px white;
+}
